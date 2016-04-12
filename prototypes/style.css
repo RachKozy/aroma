@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,700,900);
+
+
+/* Header */
+
+body {
+  font-family: "Lato", arial, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+
+@media screen and (min-width:800px) {
+  nav {
+    margin: 3.5em 3.5em 0 0;
+  }
+}
+
+@media screen and (max-width:800px) {
+  a.menu-link {
+    margin: 2.75em 3.5em 0 0;
+    font-size: 1.2em;
+    color: rgb(173,165,161);
+  }
+}
+
+.logo {
+  margin: 0 0 0 3.5em;
+}
+
+nav ul li a {
+    color: rgb(173,165,161);
+    text-decoration: none;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+@media screen and (min-width:800px) {
+    nav {
+      float: right;
+    }
+}
+
+a.menu-link {
+  	    float: right;
+		    display: block;
+		    padding: 1em;
+        text-decoration: none;
+        border: 2px solid rgb(173,165,161);
+        padding: .5em 3em;
+        font-weight: 700;
+		}
+
+@media screen and (max-width:520px) {
+  a.menu-link {
+    padding: .5em 1.25em;
+    margin-right: 2em;
+  }
+  .logo {
+    margin: 0 0 0 1.5em;
+  }
+}
+
+		nav[role=navigation] {
+			clear: both;
+		/*	-webkit-transition: all 0.3s ease-out;
+			-moz-transition: all 0.3s ease-out;
+			-ms-transition: all 0.3s ease-out;
+			-o-transition: all 0.3s ease-out;
+			transition: all 0.3s ease-out;
+    */
+		}
+		.js nav[role=navigation] {
+			overflow: hidden;
+			max-height: 0;
+		}
+		nav[role=navigation].active {
+			max-height: 15em;
+		}
+		nav[role=navigation] ul {
+			margin: 0;
+			padding: 0;
+			border-top: 1px solid #808080;
+		}
+		nav[role=navigation] li a {
+			display: block;
+			padding: 0.8em 1.5em;
+			border-bottom: 1px solid #808080;
+		}
+
+		@media screen and (min-width:800px) {
+			a.menu-link {
+			   display: none;
+			}
+			.js nav[role=navigation] {
+				max-height: none;
+			}
+			nav[role=navigation] ul {
+				margin: 0 0 0 -0.25em;
+				border: 0;
+			}
+
+			nav[role=navigation]  li {
+				display: inline-block;
+				margin: 0 0.25em;
+			}
+			nav[role=navigation] li a {
+				border: 0;
+			}
+		}
+
+    li a:hover {
+      text-decoration: underline;
+      color: rgb(148,206,192);
+    }
+
+/* Headings */
+
+    p {
+      color: rgb(71,62,60);
+    }
+
+    .awards {
+      margin: 0 0 0 4.5em;
+    }
+
+    .awards td {
+      line-height: 1.8em;
+      margin-top: -.85em;
+      font-size: 1.25em;
+      color: rgb(71,62,60);
+    }
+
+    .awards table {
+      margin: -1em 0 2em 0;
+    }
+
+    @media screen and (max-width:900px) {
+      .awards table, h1 {
+        text-align: center;
+        width: 100px;
+      }
+    }
+
+    h1 {
+      color: rgb(148,206,192);
+      font-weight: 900;
+      text-transform: lowercase;
+      font-size: 2.5em;
+    }
+
+    .hero {
+      position: absolute;
+      top: 25%;
+      left: 5%;
+      z-index: 1
+      padding-left: 1em;
+      font-size: 3em;
+    }
+
+    .hero2 {
+      position: absolute;
+      top: 34%;
+      left: 5%;
+      z-index: 1;
+      font-size: 1.8em;
+    }
+
+    h2 {
+      font-family: Georgia, serif;
+      font-style: italic;
+      font-weight: 300;
+      color: white;
+      text-transform: lowercase;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      font-weight: 900;
+      background-color: rgb(148,206,192);
+      color: white;
+      padding: 1em;
+    }
+
+    h4 {
+      text-transform: uppercase;
+      color: rgb(89,80,77);
+      font-weight: 700;
+    }
+
+    h5 {
+      color: rgb(148,206,192);
+      font-weight: 700;
+      font-size: 1.4em;
+    }
+
+    h6 {
+
+    }
+
+
+/* Images */
+
+.heroimg {
+  max-width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: rgb(89,80,77);
+  width: 100%;
+  padding: 2.5em 0 1.5em 0;
+  text-align: center;
+}
+
+footer h6 {
+  color: rgb(203,197,193);
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin: 0 0 .25em 0;
+}
+
+footer p {
+  color: white;
+  line-height: 1.5em;
+  margin: .3em 0 2em 0;
+}
+
+.columbus, .kent, .hours {
+  width: 33.333333%;
+  float: left;
+  background-color: rgb(89,80,77);
+}
+
+@media screen and (max-width:900px) {
+  .columbus, .kent, .hours {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+/* Clearfix */
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* IE < 8 */
+}
