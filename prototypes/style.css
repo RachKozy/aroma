@@ -140,7 +140,6 @@ a.menu-link {
     @media screen and (max-width:900px) {
       .awards table, h1 {
         text-align: center;
-        width: 100px;
       }
     }
 
@@ -155,8 +154,7 @@ a.menu-link {
       position: absolute;
       top: 25%;
       left: 5%;
-      z-index: 1
-      padding-left: 1em;
+      z-index: 1;
       font-size: 3em;
     }
 
