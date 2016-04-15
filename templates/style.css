@@ -331,14 +331,13 @@ figure {
 }
 
 h4 {
-  padding: 1.5em 0 0 1.5em;
+  padding: 2em 0 0 1.5em;
   font-size: .9em;
 }
 
 .eventdate {
-  padding: 0 0 0 1.5em;
+  padding: 0 0 .75em 1.5em;
   font-size: .9em;
-  margin-bottom: 6em;
 }
 
 @media screen and (min-width: 675px) {
