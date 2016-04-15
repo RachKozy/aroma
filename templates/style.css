@@ -126,7 +126,6 @@ a.menu-link {
       margin-top: -.85em;
       font-size: .95em;
       color: rgb(71,62,60);
-
     }
 
     .awards table {
@@ -135,8 +134,54 @@ a.menu-link {
       float: left;
     }
 
+    @media screen and (min-width: 725px) {
+      .awards {
+        margin: .75em 2.5em;
+        padding-left: .25em;
+      }
+      .awards table {
+        font-size: 1em;
+      }
+      .table2 {
+        margin-left: 2em;
+      }
+    }
 
-      @media screen and (max-width:674px) {
+    @media screen and (min-width: 840px) {
+      .awards table {
+        padding-top: .5em;
+        font-size: 1.1em;
+      }
+      .awards {
+        padding-left: 1.25em;
+      }
+    }
+
+    @media screen and (min-width: 1050px) {
+      .awards table {
+        font-size: 1.3em;
+      }
+      .awards h1 {
+        font-size: 2.2em;
+      }
+      .awards {
+        padding-left: 3em;
+      }
+    }
+
+    @media screen and (min-width: 1260px) {
+      .awards table {
+        font-size: 1.25em;
+      }
+      .awards h1 {
+        font-size: 2.5em;
+      }
+      .awards {
+        padding-left: 6em;
+      }
+    }
+
+      @media screen and (max-width:725px) {
       .awards table, h1 {
         text-align: center;
       }
@@ -144,7 +189,7 @@ a.menu-link {
         width: 100%
       }
       .awards .table2 {
-        margin: -2.1em 0 0 0;
+        margin: -2.1em 0 1.5em 0;
       }
     }
 
@@ -454,8 +499,8 @@ footer {
 }
 
 .footer {
-  padding: 1.5em 0 2.75em 0;
-  margin-top: 1em;
+  padding: 1em 0 2em 0;
+  margin-top: .75em;
 }
 
 footer h1 {
@@ -463,10 +508,6 @@ footer h1 {
   font-size: 1.2em;
   font-weight: 700;
   text-transform: uppercase;
-}
-
-.columbus {
-  margin-top: 1.5em;
 }
 
 .hours, .kent {
@@ -478,6 +519,15 @@ footer p {
   font-size: 1em;
   line-height: .5em;
   margin-top: .2em;
+}
+
+@media screen and (min-width: 840px) {
+  .columbus, .hours, .kent {
+    width: 33.3333%;
+    float: left;
+    margin: 0 0 2em 0;
+    padding: 0;
+  }
 }
 
 
