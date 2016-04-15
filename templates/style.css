@@ -338,6 +338,7 @@ h4 {
 .eventdate {
   padding: 0 0 0 1.5em;
   font-size: .9em;
+  margin-bottom: 1.5em;
 }
 
 @media screen and (min-width: 675px) {
