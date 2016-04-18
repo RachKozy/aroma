@@ -12,28 +12,32 @@
   <body>
     <header>
       <a href="index.html">
-        <img src="assets/logo.svg" alt="Aroma Coffee and Tea Logo"></img>
+        <img src="assets/logo.svg" class="logo" alt="Aroma Coffee and Tea Logo"></img>
       </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="menu.html">Menu</a>
-          </li>
-          <li>
-            <a href="process.html">Process</a>
-          </li>
-          <li>
-            <a href="events.html">Events</a>
-          </li>
-        </ul>
+
+      <a href="#menu" class="menu-link">Menu</a>
+
+      <nav id="menu" role="navigation">
+      			<ul>
+      				<li><a href="menu.html">Menu</a></li>
+      				<li><a href="process.html">Process</a></li>
+      				<li><a href="events.html">Events</a></li>
+      			</ul>
       </nav>
     </header>
 
+
     <main>
-      <div class="menu-heading">
-        <h2>We proudly serve the rarest coffee & espresso beans, single in origin & roasted right here in Kent. </h2>
-        <img src="assets/menu.jpg" alt="cup of coffee and beans"></img>
+      <div class="menu-heading clearfix">
+        <figure class="beanshome-2">
+            <img src="assets/menu.jpg" alt="cup of coffee and beans"/>
+            <figcaption class="beanstext">
+                <h1 class="hero">Drinks + Baked Goods</h1>
+                <h2 class="hero2">We proudly serve the rarest coffee & espresso beans</h2>
+            </figcaption>
+          </figure>
       </div>
+
 
       <div class="menu-body">
         <div class="coffee">
@@ -118,21 +122,26 @@
 
     </main>
 
-    <footer>
-      <h6>Columbus</h6>
-      <p>5883 High Street, Columbus, OH 43085
-        <br>
-      (330) 854-8583</p>
+    <footer class="clearfix">
+      <div class="footer">
+        <div class="columbus">
+          <h1>Columbus</h1>
+          <p>5883 High St. Columbus, OH 43085</p>
+          <p>(330) 854–8583</p>
+        </div>
 
-      <h6>Kent</h6>
-      <p>6110 Horning Road, Kent, Ohio 44240
-        <br>
-      (330) 672-3031</p>
+        <div class="kent">
+          <h1>Kent</h1>
+          <p>6110 Horning Rd. Kent, OH 44240</p>
+          <p>(330) 672–3031</p>
+        </div>
 
-      <h6>Hours</h6>
-      <p>Mon-Fri: 6:00AM - 10:30PM
-        <br>
-      Sat-Sun: 7:00AM - 3:00PM</p>
+        <div class="hours">
+          <h1>Hours</h1>
+          <p>Mon–Fri: 6:00 AM – 10:30 PM</p>
+          <p>Sat–Sun: 7:00 AM – 3:00 PM</p>
+        </div>
+      </div>
     </footer>
 
 
