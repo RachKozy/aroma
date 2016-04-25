@@ -116,11 +116,18 @@ a.menu-link {
 		}
 
     li a:hover {
-      text-decoration: underline;
+      text-decoration: none;
       color: rgb(148,206,192);
     }
 
 /* Headings */
+
+h1 {
+      color: rgb(148,206,192);
+      font-weight: 900;
+      text-transform: lowercase;
+      font-size: 2em;
+    }
 
     p {
       color: rgb(71,62,60);
@@ -198,12 +205,6 @@ a.menu-link {
       }
     }
 
-    h1 {
-      color: rgb(148,206,192);
-      font-weight: 900;
-      text-transform: lowercase;
-      font-size: 2em;
-    }
 
 /* Header Text */
 
@@ -248,9 +249,10 @@ a.menu-link {
        text-transform: lowercase;
        margin-top: -.9em;
        margin-left: 2.5em;
+       padding-right: 1em;
     }
 
-    @media screen and (min-width:520px) {
+    @media screen and (min-width:521px) {
       .hero {
         font-size: 2.6em;
         margin-top: .85em;
@@ -322,6 +324,10 @@ a.menu-link {
 img {
   max-width: 100%;
 }
+
+
+
+
 
 /* Event Block */
 
@@ -589,7 +595,181 @@ h4 {
 
 .eventdescription {
   padding: 0 1.2em;
+  line-height: 1.4em;
 }
+
+
+
+/* Menu Page */
+
+.menu-block table {
+  border-spacing: 2.5em 0;
+}
+
+@media screen and (min-width: 1190px) {
+  .menu-block table {
+    border-spacing: 5.5em 0;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .coffee .flavor2 {
+    margin-left: 6.9em;
+    display: block;
+  }
+  .espressomore .flavor2 {
+    margin-left: 7.4em;
+    display: block;
+  }
+  .tea .flavor2 {
+    margin-left: 8em;
+    display: block;
+  }
+}
+
+
+@media screen and (min-width: 900px) {
+  .coffee .flavor2 {
+    margin-left: 8.6em;
+    display: block;
+  }
+  .espressomore .flavor2 {
+    margin-left: 9em;
+    display: block;
+  }
+  .tea .flavor2 {
+    margin-left: 9.75em;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1190px) {
+  .coffee .flavor2 {
+    margin-left: 13.6em;
+    display: block;
+  }
+  .espressomore .flavor2 {
+    margin-left: 14em;
+    display: block;
+  }
+  .tea .flavor2 {
+    margin-left: 14.75em;
+    display: block;
+  }
+}
+
+
+.menu-block h1 {
+      color: rgb(148,206,192);
+      font-weight: 900;
+      text-transform: lowercase;
+      font-size: 2em;
+      text-align: left;
+      padding-left: 1.75em;
+      margin-bottom: 0em;
+  }
+
+  @media screen and (min-width: 521px) {
+    .menu-block h1 {
+      padding-left: 2.5em;
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    .menu-block h1 {
+      padding-left: 3.5em;
+      font-size: 2.2em;
+    }
+  }
+
+  @media screen and (min-width: 1190px) {
+    .menu-block h1 {
+      padding-left: 4.25em;
+      font-size: 2.5em;
+    }
+  }
+
+  .menu-block h4 {
+      font-size: 1em;
+      text-align: left;å
+      padding-left: 3.5em;
+      margin-bottom: .75em;
+      margin-top: 0em;
+      padding-left: 3.5em;
+    }
+
+    @media screen and (min-width: 521px) {
+      .menu-block h4 {
+        padding-left: 5em;
+      }
+    }
+
+    @media screen and (min-width: 675px) {
+      .menu-block h4 {
+        padding-top: 1.5em;
+      }
+    }
+
+    @media screen and (min-width: 900px) {
+      .menu-block h4 {
+        padding-left: 7em;
+        font-size: 1.1em;
+        margin-bottom: .25em;
+      }
+    }
+
+    @media screen and (min-width: 1190px) {
+      .menu-block h4 {
+        padding-left: 9.75em;
+      }
+    }
+
+.menu-block td {
+      line-height: 1.5em;
+      font-size: 1.1em;
+      color: rgb(71,62,60);
+      padding-left: .9em;
+}
+
+@media screen and (min-width: 521px) {
+  .menu-block td {
+    padding-left: 2.25em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+    .menu-block td {
+      padding-left: 4.35em;
+      font-size: 1.2em;
+      }
+    }
+
+.flavors {
+  background-color: rgb(231,227,225);
+  padding-bottom: 1.25em;
+  margin-top: 1.5em;
+}
+
+@media screen and (min-width: 640px) {
+  .hotcoffee, .icedcoffee, .bybeans, .bybag, .flavors, .espresso, .classiclatte, .cappuccino, .flavoredlatte, .cafeamericano, .mocha, .hottea, .icedtea, .muffin, .waffle, .scone, .biscotti, .bread, .cake {
+    float: left;
+  }
+  .flavors {
+    width: 100%;
+  }
+}
+
+.cake {
+  margin-bottom: 3em;
+}
+
+
+
+
+
+
+
+
 
 /* Footer */
 
