@@ -17,6 +17,10 @@ body {
   background-color: rgb(231,227,225);
 }
 
+strong {
+  font-weight: 700;
+}
+
 /* Navigation */
 
 @media screen and (min-width:800px) {
