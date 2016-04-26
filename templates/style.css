@@ -927,6 +927,10 @@ footer p {
   margin-top: .2em;
 }
 
+.footer a {
+  color: white;
+}
+
 @media screen and (min-width: 840px) {
   .columbus, .hours, .kent {
     width: 33.3333%;
