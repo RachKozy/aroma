@@ -929,6 +929,7 @@ footer p {
 
 .footer a {
   color: white;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 840px) {
