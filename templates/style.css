@@ -539,7 +539,7 @@ h4 {
   }
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 957px) {
   h4 {
     padding-top: 1em;
   }
@@ -613,6 +613,7 @@ h4 {
   text-decoration: none;
   color: rgb(148,206,192);
   }
+
 
 
 /* Menu Page */
