@@ -431,12 +431,6 @@ figure {
   }
 }
 
-@media screen and (min-width: 1050px) {
-  .eventblock {
-    padding: 3.5em 4.5em;
-  }
-}
-
 h4 {
   padding: 1.5em 0 0 1.5em;
   font-size: .9em;
