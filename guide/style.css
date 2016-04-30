@@ -18,8 +18,20 @@ img {
 }
 
 .hoverimage {
-  width: 40%;
+  width: 50%;
   margin-top: 1em;
+}
+
+@media screen and (max-width: 950px) {
+  .hoverimage {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hoverimage {
+    width: 90%;
+  }
 }
 
 .hoverimage:hover {
@@ -94,6 +106,10 @@ a {
   margin-top: 2em;
 }
 
+.top-space2 {
+  margin-top: 1.25em;
+}
+
 .Lato-type {
   font-family: "Lato", sans-serif;
   color: rgb(173,165,161)
@@ -147,7 +163,6 @@ a {
   width: 24%;
   height: 5%;
   float: left;
-  margin-top: .5em;
   margin-right: 2%;
 }
 
