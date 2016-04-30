@@ -17,8 +17,17 @@ img {
   margin-bottom: -1em;
 }
 
+.hoverimage {
+  width: 40%;
+  margin-top: 1em;
+}
+
+.hoverimage:hover {
+  opacity: .8;
+}
+
 main {
-  margin: 0 10% 3em 10%;
+  margin: 0 10% 5em 10%;
   max-width: 80%;
 }
 
