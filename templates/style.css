@@ -48,11 +48,6 @@ nav ul li a {
     font-weight: 400;
 }
 
-nav ul li a:active {
-  text-decoration: none;
-  color: rgb(148,206,192);
-}
-
 @media screen and (min-width:800px) {
     nav {
       float: right;
@@ -917,7 +912,13 @@ footer {
 }
 
 .footer {
-  padding: 1em 0 2em 0;
+  padding: 3em 0 4em 0;
+}
+
+@media screen and (min-width: 840px) {
+  .footer {
+    padding: 2.5em 0 9.5em 0;
+  }
 }
 
 footer h1 {
