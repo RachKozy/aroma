@@ -34,6 +34,31 @@ a:hover {
   color: rgb(148,206,192);
 }
 
+.live-website {
+  border: 2px solid rgb(148,206,192);
+  background-color: white;
+  padding: 1em;
+  width: 158px;
+  color: rgb(148,206,192);
+}
+
+
+.live-website:hover {
+  border: 2px solid rgb(148,206,192);
+  background-color: rgb(148,206,192);
+  color: white;
+}
+
+.live-website:hover a {
+  color: white;
+}
+
+.live-website a {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: rgb(148,206,192);
+}
+
 img {
   width: 265px;
   margin-left: -1em;
