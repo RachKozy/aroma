@@ -953,6 +953,22 @@ footer p {
   }
 }
 
+/* Active Navigation Links */
+
+.menu-active {
+  text-decoration: none;
+  color: rgb(148,206,192);
+}
+
+.events-active {
+  text-decoration: none;
+  color: rgb(148,206,192);
+}
+
+.process-active {
+  text-decoration: none;
+  color: rgb(148,206,192);
+}
 
 /* Clearfix */
 
